@@ -1,0 +1,26 @@
+#counter{
+    display: block;
+    text-align: center;
+    font-size: 5em;
+    font-family: helvetica;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: center;
+}
+
+.button{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    font-size: large;
+    background:linear-gradient(120deg,rgb(50, 155, 225),rgb(153, 250, 197));
+}
+.button:hover{
+    transition: 0.5s;
+    background:linear-gradient(120deg,rgb(47, 235, 13),rgb(90, 213, 233));
+}
